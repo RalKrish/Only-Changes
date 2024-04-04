@@ -1,0 +1,81 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(212, 223, 119, 0.833);
+  display: flex;
+}
+.clock{
+  width: fit-content;
+  height: 25rem;
+  background-color: aliceblue;
+  margin: auto;
+  font-size: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+
+  border: solid 1rem rgba(123, 117, 117, 0.89)  ;
+}
+
+.timeSelector{
+ font-size: 2.5rem;
+ /* background-color: rgb(167, 144, 215); */
+ display: inline-flex;
+ flex-direction: column ;
+ width: fit-content;
+ height: 8rem;
+ position: absolute;
+ margin-left:10rem;
+ margin-top:-1rem;
+}
+.timeSelector  input[type="radio"]{
+  transform: scale(2);
+}
+
+.clock h1{
+  margin-bottom: 2rem;
+}
+.days ul{
+  display: flex;
+  /* background-color: antiquewhite  ; */
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.highli{
+  background-color: rgba(116, 154, 237, 0.911);
+  color: black;
+  z-index: 5;
+}
+
+
+.mainContainer{
+display: flex;
+gap: 2rem;
+text-align: center;
+margin-top: 4rem;
+
+}
+.mainContainer p{
+font-size: 3rem;
+
+
+}
+.AmPm{
+  margin-left: 2rem;
+}
+
+
+.AmPm label{
+  font-size: 2rem;
+  color: black;
+
+}
+.AmPm input[type="radio"] {
+  transform: scale(2);
+}

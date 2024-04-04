@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  /* background-color: rgba(217, 92, 217, 0.806); */
+  display: flex;
+}
+.mainCont{
+  outline: 1rem solid rgba(22, 22, 125, 0.749);
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  position: relative;
+  box-shadow: -2rem -2rem 1rem rgba(0,0,0,0.2);
+  background: url("Img/1.jpg") center/cover  no-repeat;
+  transition: 1s ease-in-out;
+
+
+}
+.left{
+  position: absolute;
+  top: 50%;
+  left: -2rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius:50% ;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(206, 102, 28);
+  font-size:1.5rem;
+  color: white;
+}
+.right{
+  position: absolute;
+  top: 50%;
+  right: -2rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius:50% ;
+  border: none;
+  background-color: rgb(206, 102, 28);
+  font-size:1.5rem;
+  color: white;
+  cursor: pointer;
+}

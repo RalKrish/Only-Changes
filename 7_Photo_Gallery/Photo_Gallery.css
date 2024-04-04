@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: bisque;
+  overflow: hidden;
+}
+.img_container {
+  width: 40%;
+  height: 80%;
+  background-color: lightgreen;
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+  padding: 2rem;
+
+}
+
+/* .image_box {
+  width: 80%;
+  height: 100%;
+  background-color: rgb(125, 172, 172);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+} */
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  object-position: top;
+  border: solid 0.35rem white;
+}
+#TheViewer{
+  /* created in js  */
+background-color: rgba(224, 196, 224, 0.326);
+position: fixed;
+top: 0;
+width: 100%;
+height: 100%;
+backdrop-filter: blur(2px);
+display: none;
+}
+#TheViewer.active{
+  display: grid;
+  place-items : center;
+  object-fit: cover;
+
+  /* we overide the  line52 with some valid display  property */
+}
+/* #TheViewer #Enlarge{
+  max-width:60%;
+  max-height: 80%;
+  border: 0.5rem solid white;
+  box-shadow: 1px 1px 20px rgba(131, 125, 125, 0.242)
+} */
+.enlarged-image {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  width: fit-content;
+  object-fit: cover;
+  height: 40rem; /* Set a fixed height */
+  border: 0.5rem solid white;
+
+  box-shadow: 1px 1px 20px rgba(131, 125, 125, 0.242);
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Modifier</title>
+</head>
+<link rel="stylesheet" href="cssGenerator.css">
+<body>
+<div class="container">
+  <div class="tool">
+
+    <div class="form-group">
+      <label for="all">All corners: <span id="all_value"></span></label>
+      <input type="range" value="" min="0" max="300" id="all" name="Dude">
+    </div>
+
+    <div class="form-group">
+      <label for="all">Border Size <span id="all_size">:10px</span></label>
+      <input type="range" value="80" min="0" max="300" id="size" name="Dude">
+    </div>
+
+    <div class="form-group">
+      <label for="all">Border Color <span id="all_color">:10px</span></label>
+      <select id="TheColor">
+         <!-- <option selected=""></option> -->
+        <option >red</option>
+        <option>blue</option>
+        <option>green</option>
+        <option>grey</option>
+        <option>maroon</option>
+        <option>orange</option>
+        <option>black</option>
+        <option>purple</option>
+        <option>yellow</option>
+        <option>violet</option>
+
+      </select>
+    </div>
+
+    <div class="form-group">
+        <label for="border-style">Border Style</label>
+        <select id="border-style">
+
+
+
+
+
+            <!-- <option selected=""></option> -->
+            <option >solid</option>
+            <option>dotted</option>
+            <option>dashed</option>
+            <option>double</option>
+            <option>groove</option>
+            <option>ridge</option>
+            <option>inset</option>
+            <option>outset</option>
+            <option>none</option>
+            <option>hidden</option>
+
+
+        </select>
+    </div>
+
+    <div class="form-group">
+      <textarea id="code_space"></textarea>
+
+    </div>
+
+    <div class="form-group">
+<button id="btnCopy">Copy code</button>
+    </div>
+
+  </div>
+</div>
+
+</body>
+<script src="cssGenerator.js"></script>
+
+</html>

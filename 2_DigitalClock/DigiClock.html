@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DigiClock</title>
+  </head>
+  <link rel="stylesheet" href="DigiClock.css" />
+  <body>
+    <div class="clock">
+      <h1>
+        Digital Clock
+        <span class="timeSelector">
+          <div class="twenty4">
+            <input type="radio" value="24Hour" name="format" id="24 hour" />
+            <label for="24 hour">24 hour</label>
+          </div>
+
+       <div class="twelve">
+        <input type="radio" value="12Hour" name="format" id="12hour" />
+        <label for="12hour">12 hour</label>
+        </div>
+
+        </span>
+      </h1>
+      <div class="days">
+        <ul>
+          <li>SUN</li>
+          <li>MON</li>
+          <li>TUE</li>
+          <li>WED</li>
+          <li>THU</li>
+          <li>FRI</li>
+          <li>SAT</li>
+
+        </ul>
+      </div>
+<div class="mainContainer">
+
+         <div>
+          <h2>Hours</h2>
+          <p class="Hours">00</p>
+        </div>
+
+        <div>
+          <h2>Minutes</h2>
+          <p class="Minutes">00</p>
+        </div>
+
+        <div>
+          <h2>Seconds</h2>
+          <p class="Seconds">00</p>
+        </div>
+
+        <div>
+          <div class="AmPm">
+            <input type="radio" name="zone" id="AM" value="AM"/>
+            <label for="AM">AM</label>
+          </div>
+
+          <div class="AmPm">
+            <input type="radio" name="zone" id="PM" value="PM" />
+            <label for="PM">PM</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="DigiClock.js"></script>
+</html>

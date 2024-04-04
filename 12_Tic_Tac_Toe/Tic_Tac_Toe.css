@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.mainCont {
+  background-color: rgba(163, 160, 158, 0.845);
+  padding: 0.5rem;
+  height: 100%;
+}
+.mainCont h1 {
+  margin: 5rem auto;
+  /* background-color: aliceblue; */
+  text-align: center;
+  margin-bottom: -3rem;
+  font-size: 4rem;
+}
+
+.gameCont {
+  width: 30rem;
+  background-color: rgba(127, 255, 212, 0.785);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5rem auto;
+}
+
+.cell {
+  width: 10rem;
+  height: 10rem;
+  /* background-color: black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  border: solid rgba(57, 54, 54, 0.904) 0.25rem;
+  cursor: pointer;
+}
+
+.theButtons {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(197, 197, 29); */
+}
+
+.statsText {
+  width: fit-content;
+  /* background-color: aliceblue; */
+  font-size: 3rem;
+}
+.restaBtn {
+  font-size: 1.8rem;
+  padding: 10px 15px;
+  color: aliceblue;
+  background-color: rgb(23, 133, 207);
+}

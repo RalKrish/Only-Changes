@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: purple;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,200px);
+  gap:1rem;
+  padding: 1rem;
+
+
+
+}
+
+.sticky{
+  background-color:white;
+  color: black;
+  height: 200px;
+  padding: 1rem;
+  resize: none;
+  font-size: 1.2rem;
+
+}
+.AddBtn{
+  height: 200px;
+  background-color: rgba(22, 22, 22, 0.833);
+  color: white;
+  font-size: 1.8rem;
+}
